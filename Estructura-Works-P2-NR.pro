@@ -13,8 +13,20 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    Tarea1/ArbolesNarios.cpp \
+    Tarea2/ColaPrioridades.cpp \
+    Tarea3/ArbolPrioridades.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    Tarea1/ArbolesNarios.h \
+    Tarea2/ColaPrioridades.h \
+    Tarea3/ArbolPrioridades.h \
+    ClasesGenerales/nodo.h \
+    Tarea2/colaprioridad.h \
+    Tarea3/arbolprioridad.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    Tarea1/ArbolesNarios.ui \
+    Tarea2/ColaPrioridades.ui \
+    Tarea3/ArbolPrioridades.ui
